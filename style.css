@@ -48,3 +48,10 @@ th, td {
     padding:180px 300px 20px 20px;
     float: right;
 }
+
+footer{
+    text-align: center;
+    background-color: #c5c5c5;
+    color: #111;
+    padding: 20px;
+}
