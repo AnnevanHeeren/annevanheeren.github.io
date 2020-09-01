@@ -1,9 +1,13 @@
 body{
-    font-family: roboto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #272727;
     background-color: #eeeeee;
     margin: 0px;
     padding: 0px;
+}
+
+h4{
+    color: #555555;
 }
 
 ul {
@@ -23,7 +27,7 @@ li {
   
 li a {
     display: block;
-    font-family: tahoma;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     color: white;
     text-decoration: none;
