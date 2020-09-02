@@ -44,19 +44,19 @@ th, td {
     text-align: left;
   }
 
-#pic01{
+img#pic01{
     padding:180px 300px 20px 20px;
     float: right;
     opacity: 0.4;
 }
 
-#pic02{
+img#pic02{
     padding: 180px 30px 20px 120px;
     float: left;
     opacity: 1;
 }
 
-#pic03{
+img#pic03{
     padding: 180px 120px 20px 30px;
     float: left;
     opacity: 1;
