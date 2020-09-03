@@ -107,3 +107,10 @@ div#profile {
     margin: 150px 0px; 
     float:left;
 }
+
+div#portfolio {
+    padding-left: 20px; 
+    margin: 200px 0px; 
+    float: left;
+    font-size: 20px;
+}
