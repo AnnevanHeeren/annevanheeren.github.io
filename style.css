@@ -114,3 +114,55 @@ div#portfolio {
     float: left;
     font-size: 20px;
 }
+
+div#faq {
+    padding-left: 20px; 
+    margin: 171px 0px 80px 0px;
+    width: 50vw;
+}
+
+div#stg {
+    padding-left: 20px; 
+    margin: 171px 0px 80px 0px;
+    width: 50vw;
+}
+
+table#stpr{
+    width: 80vw;
+    margin: 20px 20px 100px 20px;
+    border-collapse: collapse;
+}
+
+#stpr th{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #b1b1b1;
+    color: white;
+    background-color: #b1b1b1;
+}
+
+#stpr tr, #stpr td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+table#personality{
+    width: 80vw;
+    margin: 20px 20px 100px 20px;
+    border-collapse: collapse;
+}
+
+#personality th{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #b1b1b1;
+    color: white;
+    background-color: #b1b1b1;
+}
+
+#personality tr, #stpr td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #b1b1b1;
+}
