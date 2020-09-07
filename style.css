@@ -176,3 +176,21 @@ div#links {
     margin: 20px 0px 50px 0px;
     width: 50vw;
 }
+
+::-webkit-scrollbar-track {
+    color: #eeeeee; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #b1b1b1; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555; 
+  }
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
