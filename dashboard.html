@@ -178,40 +178,60 @@
     </table>
 
 
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <div id="chart_div"></div>
+    <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
+    <div id="barchart_material"></div>
 
-    <script type="text/javascript">
-    google.charts.load('current', {packages: ['corechart', 'bar']});
-google.charts.setOnLoadCallback(drawBasic);
+    <script>
+        google.load("visualization", "1.0", {
+            packages: ["bar"]
+        });
+        google.setOnLoadCallback(drawChart);
+        
+        function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+                ['Quartile', 'EC'],
+                ['Q1', 0.1],
+                ['Q2', 0.1],
+                ['Q3', 0.1],
+                ['Q4', 0.1],
+                ['Extra', 0.1]
+            ]);
+        
+            var options = {
+                backgroundColor: '#eeeeee',
+          chartArea: {
+                    backgroundColor: '#eeeeee',
+                },
 
-function drawBasic() {
+                chart: {
+                    title: 'Study Progress',
+                    subtitle: 'Study Points(EC) earned throughout the first year of HBO-ICT',
+                },
 
-      var data = google.visualization.arrayToDataTable([
-        ['Quartile', 'Progress',],
-        ['Q1', 0,],
-        ['Q2', 0,],
-        ['Q3', 0,],
-        ['Q4', 0,],
-        ['Extra', 0,]
-      ]);
-
-      var options = {
-        title: 'Progress 1st Year HBO_ICT',
-        chartArea: {width: '50%'},
-        hAxis: {
-          title: 'Study Points',
-          minValue: 0
-        },
-        vAxis: {
-          title: 'Quartile'
+  
+                
+                
+                axes: {
+                    x: {
+                        all: {
+                            range: {
+                                max: 60,
+                                min: 0
+                            }
+                        }
+                    }
+                },
+                bars: 'horizontal',
+                width: 800,
+                height: 600,
+            };
+        
+            var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+        
+        
+            chart.draw(data, google.charts.Bar.convertOptions(options));
         }
-      };
 
-      var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-
-      chart.draw(data, options);
-    }
 </script>
 
 
