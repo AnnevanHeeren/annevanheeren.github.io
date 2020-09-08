@@ -184,20 +184,20 @@ div#links {
     border-radius: 10px;
 }
    
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #b1b1b1; 
     border-radius: 10px;
 }
   
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #555555; 
 }
 
-  ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 20px;
 }
 
-  div#bars {
+div#bars {
     box-sizing: border-box;
     width: 80vw;
     padding-bottom: 20px;
