@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #272727;
     background-color: #eeeeee;
@@ -6,7 +6,7 @@ body{
     padding: 0px;
 }
 
-h4{
+h4 {
     color: #555555;
 }
 
@@ -24,7 +24,7 @@ ul#lint {
     z-index: 999;
 }
 
-li#lint{
+li#lint {
     color: #272727;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 12px;
@@ -62,19 +62,20 @@ li a:hover {
     animation-name: background-color;
     animation-duration: 800ms;
     animation-fill-mode: forwards;
-  }
-  @keyframes background-color {
+}
+
+@keyframes background-color {
     100% {
         background-color: #111
     }
-  }
+}
 
 th, td {
     padding-left: 15px;
     text-align: left;
-  }
+}
 
-img#pic01{
+img#pic01 {
     margin: 180px 15vw 20px 20px;
     float: right;
     opacity: 0.4;
@@ -82,14 +83,14 @@ img#pic01{
     z-index: -50;
 }
 
-img#pic02{
+img#pic02 {
     margin: 180px 3px 20px 10px;
     float: left;
     opacity: 1;
     width: 300px;
 }
 
-img#pic03{
+img#pic03 {
     margin: 180px 10px 20px 3px;
     float: left;
     opacity: 1;
@@ -128,13 +129,13 @@ div#stg {
     width: 50vw;
 }
 
-table#stpr{
+table#stpr {
     width: 80vw;
     margin: 20px 20px 50px 20px;
     border-collapse: collapse;
 }
 
-#stpr th{
+#stpr th {
     text-align: left;
     padding: 10px;
     border: 1px solid #b1b1b1;
@@ -148,13 +149,13 @@ table#stpr{
     border-bottom: 1px solid #b1b1b1;
 }
 
-table#personality{
+table#personality {
     width: 80vw;
     margin: 20px 20px 50px 20px;
     border-collapse: collapse;
 }
 
-#personality th{
+#personality th {
     text-align: left;
     padding: 10px;
     border: 1px solid #b1b1b1;
@@ -168,7 +169,7 @@ table#personality{
     border-bottom: 1px solid #b1b1b1;
 }
 
-h2#stg{
+h2#stg {
     margin: 20px;
 }
 
@@ -181,26 +182,25 @@ div#links {
 ::-webkit-scrollbar-track {
     color: #eeeeee; 
     border-radius: 10px;
-  }
+}
    
   ::-webkit-scrollbar-thumb {
     background: #b1b1b1; 
     border-radius: 10px;
-  }
+}
   
   ::-webkit-scrollbar-thumb:hover {
     background: #555555; 
-  }
+}
 
   ::-webkit-scrollbar {
     width: 20px;
-  }
+}
 
-  div#bars  {
+  div#bars {
     box-sizing: border-box;
     width: 80vw;
     padding-bottom: 20px;
-    
 }
 
 .container {
@@ -217,11 +217,30 @@ div#links {
     color: white;
 }
 
-.Q1 {width: 0%; background-color: lightgreen;} /* %=(ec/15)*100     (total=15) */
-.Q2 {width: 0%; background-color: lightgreen;} /* %=(ec/12.5)*100     (total=12.5) */
-.Q3 {width: 0%; background-color: lightgreen;} /* %=(ec/15)*100     (total=15) */
-.Q4 {width: 0%; background-color: lightgreen;} /* %=(ec/12.5)*100     (total=12.5) */
-.extra {width: 0%; background-color: lightgreen;} /* %=(ec/5)*100     (total=5) */
+.Q1 {
+    width: 0%;
+     background-color: lightgreen;
+} /* %=(ec/15)*100     (total=15) */
+
+.Q2 {
+    width: 0%; 
+    background-color: lightgreen;
+} /* %=(ec/12.5)*100     (total=12.5) */
+
+.Q3 {
+    width: 0%; 
+    background-color: lightgreen;
+} /* %=(ec/15)*100     (total=15) */
+
+.Q4 {
+    width: 0%; 
+    background-color: lightgreen;
+} /* %=(ec/12.5)*100     (total=12.5) */
+
+.extra {
+    width: 0%; 
+    background-color: lightgreen;
+} /* %=(ec/5)*100     (total=5) */
 
 .containert {
     box-sizing:border-box;
@@ -236,8 +255,11 @@ div#links {
     margin:20px 50px 20px 20px;
 }
 
-.total {width: 0%; background-color: lightgreen;} /* %=(ec/60)*100     (total=60) */
+.total {
+    width: 0%; 
+    background-color: lightgreen;
+} /* %=(ec/60)*100     (total=60) */
 
-#textQ{
+#textQ {
     margin-left: 20px;
 }
