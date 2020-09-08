@@ -178,65 +178,38 @@
     </table>
 
 
+<div id="bars">
+    <p id="textQ">Q1</p>
+    <div class="container">
+      <div class="Q Q1">0%</div>
+    </div>
+    
+    <p id="textQ">Q2</p>
+    <div class="container">
+      <div class="Q Q2">0%</div>
+    </div>
+    
+    <p id="textQ">Q3</p>
+    <div class="container">
+      <div class="Q Q3">0%</div>
+    </div>
+    
+    <p id="textQ">Q4</p>
+    <div class="container">
+      <div class="Q Q4">0%</div>
+    </div>
 
-    <div class="rectangle"></div>
+    <p id="textQ">Extra</p>
+    <div class="container">
+      <div class="Q extra">0%</div>
+    </div>
 
+    <p id="textQ">Total</p>
+    <div class="containert">
+      <div class="Q total">0%</div>
+    </div>
 
-
-    <script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
-    <div id="barchart_material"></div>
-
-    <script>
-        google.load("visualization", "1.0", {
-            packages: ["bar"]
-        });
-        google.setOnLoadCallback(drawChart);
-        
-        function drawChart() {
-            var data = google.visualization.arrayToDataTable([
-                ['Quartile', 'EC'],
-                ['Q1', 0.1],
-                ['Q2', 0.1],
-                ['Q3', 0.1],
-                ['Q4', 0.1],
-                ['Extra', 0.1]
-            ]);
-        
-            var options = {
-                backgroundColor: '#eeeeee',
-                chartArea: {backgroundColor: '#eeeeee'},
-                colors:['lightgreen'],
-
-                chart: {
-                    title: 'Study Progress',
-                    subtitle: 'Study Points(EC) earned throughout the first year of HBO-ICT',
-                },
-
-  
-                
-                
-                axes: {
-                    x: {
-                        all: {
-                            range: {
-                                max: 60,
-                                min: 0
-                            }
-                        }
-                    }
-                },
-                bars: 'horizontal',
-                width: 800,
-                height: 600,
-            };
-        
-            var chart = new google.charts.Bar(document.getElementById('barchart_material'));
-        
-        
-            chart.draw(data, google.charts.Bar.convertOptions(options));
-        }
-
-</script>
+</div>  
 
 
     <div id="links">
