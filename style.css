@@ -41,6 +41,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 200;
 }
   
 li {
@@ -95,7 +96,7 @@ img#pic03{
     width: 300px;
 }
 div#divhome {
-    width: 60vw;
+    width: 50vw;
     padding-left: 20px; 
     margin: 150px 0px; 
     float:left;
@@ -194,3 +195,7 @@ div#links {
   ::-webkit-scrollbar {
     width: 20px;
   }
+
+  #barchart_material {
+    padding: 20px;
+}
