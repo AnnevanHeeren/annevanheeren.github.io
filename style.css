@@ -266,14 +266,46 @@ div#bars {
 
 .profession {
     display: grid;
+    Margin: -320px 100px 100px 100px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
     }
     
-    .div1 { grid-area: 2 / 2 / 3 / 3; }
-    .div2 { grid-area: 2 / 3 / 3 / 4; }
-    .div3 { grid-area: 3 / 2 / 4 / 3; }
-    .div4 { grid-area: 3 / 3 / 4 / 4; }
-    .div5 { grid-area: 4 / 2 / 5 / 3; }
+    .div1 { grid-area: 2 / 2 / 3 / 3;
+  
+        box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+        border-radius: 16px;
+    }
+    .div2 { grid-area: 2 / 3 / 3 / 4;
+  
+        box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+        border-radius: 16px;
+    }
+    .div3 { grid-area: 3 / 2 / 4 / 3;
+     
+        box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+        border-radius: 16px;
+    }
+    .div4 { grid-area: 3 / 3 / 4 / 4;
+ 
+        box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+        border-radius: 16px;
+    }
+    .div5 { grid-area: 4 / 2 / 5 / 3;
+
+        box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+        border-radius: 16px;
+    }
+
+    #job {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+#jobpic{
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
