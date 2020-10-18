@@ -266,7 +266,7 @@ div#bars {
 
 .profession {
     display: grid;
-    Margin: -320px 100px 100px 100px;
+    Margin: -340px 100px 100px 100px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 80px;
