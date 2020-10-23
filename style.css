@@ -316,3 +316,9 @@ div#bars {
     color: darkblue;
     cursor: pointer;
 }
+div#divmotivation {
+    width: 60vw;
+    padding-left: 20px; 
+    margin: 150px 0px; 
+    float:left;
+}
